@@ -46,6 +46,7 @@ div.bg-color {
     text-decoration: none;
     color: $fontColor;
     font-family: $fontDana;
+    font-size: 14px;
   }
 
 }
@@ -117,7 +118,7 @@ div.text {
   display: inline-block;
   position: relative;
   top: 170px;
-  right: 480px;
+  right: 250px;
 }
 
 div.plant-1 {
@@ -125,13 +126,13 @@ div.plant-1 {
   width: 612px;
   height: 404px;
   border: 2px solid;
-  border-image-source: linear-gradient(147.93deg, rgba(255, 255, 255, 0.2) 6.68%, rgba(0, 0, 0, 0) 51.71%, rgba(255, 255, 255, 0.2) 93.27%);
+  border-image-source: linear-gradient(147.93deg, rgba(255, 255, 255, 0.377) 6.68%, rgba(0, 0, 0, 0) 51.71%, rgba(255, 255, 255, 0.2) 93.27%);
   background-color: rgba(124, 134, 122, 0.25);
   box-shadow: 0px 9px 18.4px 0px;
   border-radius: 77px;
   position: relative;
   top: 266px;
-  right: 260px;
+  right: 3px;
 
   >.sub {
     width: 213px;
@@ -182,19 +183,19 @@ div.plant-1 {
   height: 237px;
   border: 2px solid;
   border-image-source: linear-gradient(147.93deg, rgba(255, 255, 255, 0.2) 6.68%, rgba(0, 0, 0, 0) 51.71%, rgba(255, 255, 255, 0.2) 93.27%);
-  background-color: rgba(124, 134, 122, 0.25);
+  background-color: rgba(124, 134, 122, 0.363);
   box-shadow: 0px 9px 18.4px 0px;
   border-radius: 77px;
   position: relative;
   top: 700px;
-  left: 1350px;
+  left: 1411px;
   padding-right: 10px;
 
   >h4 {
     width: 300px;
     height: fit-content;
     position: relative;
-    right: 50px;
+    right: 40px;
     top: 30px;
     color: $fontColor;
     font-family: $fontDana;
@@ -215,14 +216,14 @@ div.plant-1 {
 }
 
 div.trend {
-  width: 476px;
+  width: 376px;
   height: 67px;
   position: relative;
-  top: 700px;
-  left: 900px;
+  top: 100px;
+  right:700px ;
   border: 5px solid rgba(48, 165, 25, 0.514);
 
- border-radius:15px ;
+  border-radius: 25px;
 
 
 
@@ -232,5 +233,144 @@ div.trend {
     font-size: 25px;
     width: inherit;
     height: inherit;
+    padding-right: 100px;
+    margin-top: 3px;
+   
   }
+}
+
+.plant-2 {
+  display: flex;
+  padding: 10px;
+  width: 1390px;
+  height: 500px;
+  border: 2px solid;
+  border-image-source: linear-gradient(147.93deg, rgba(255, 255, 255, 0.295) 6.68%, rgba(0, 0, 0, 0) 51.71%, rgba(255, 255, 255, 0.2) 93.27%);
+  background-color: rgba(255, 255, 255, 0.05);
+  ;
+  box-shadow: 0px 9px 18.4px 0px;
+  top: 300px;
+  border-radius: 107px;
+  position: relative;
+  right: 210px;
+  >.sub-2 { 
+    display: flex;
+    width: 813px;
+    height: 80px;
+word-spacing: 2px;
+    font-size: 20px;
+    font-family: $fontDana;
+    color: $fontColor;
+    position: relative;
+    top: 90px;
+    right: 100px;
+    text-shadow: 2px 2px 2px #d4d4d4;
+    
+}
+.dec{  
+
+  height: 204px;
+  font-family: $fontDana;
+  color: $fontColor;
+  position: relative;
+  top: 200px;
+  left: 100px;
+  font-size: larger;
+}
+>span{  
+  width: 860px;
+  height: 70px;
+  position: relative;
+top: 359px;
+left:700px ;
+  font-family: $fontDana;
+  color: $fontColor;
+  font-size: 20px;
+}
+>.buy-2{ 
+ 
+  width: 500px;
+    height: 48px;
+    background-color: rgba(168, 168, 168, 0.151);
+    box-shadow: 0px 9px 18.4px 0px;
+    border: 2px solid;
+    border-radius: 12px;
+    position: relative;
+    top: 350px;
+    left: 300px;
+    transition: 1s;
+    text-align: center;
+
+}
+
+
+}
+.buy-2:hover {
+  font-family: $fontDana;
+  color: $fontColor;
+}
+.plant-3{
+  display: flex;
+  padding: 10px;
+  width: 1390px;
+  height: 500px;
+  border: 2px solid ;
+  border-image-source: linear-gradient(147.93deg, rgba(255, 255, 255, 0.295) 6.68%, rgba(0, 0, 0, 0) 51.71%, rgba(255, 255, 255, 0.2) 93.27%);
+  background-color: rgba(255, 255, 255, 0.05);
+  ;
+  box-shadow: 0px 9px 18.4px 0px;
+  top: 600px;
+  border-radius: 107px;
+  position: relative;
+  right: 210px;
+  >.buy-3{
+    width: 466px;
+    height: 48px;
+    background-color: rgba(168, 168, 168, 0.151);
+    box-shadow: 0px 9px 18.4px 0px;
+    border: 2px solid;
+    border-radius: 12px;
+    position: relative;
+    top: 350px;
+    left: 712px;
+    transition: 1s;
+    text-align: center;
+  }
+  >.sub-3{
+    display: flex;
+    width: 813px;
+    height: 80px;
+word-spacing: 2px;
+    font-size: 20px;
+    font-family: $fontDana;
+    color: $fontColor;
+    position: relative;
+    top: 90px;
+    right: 280px;
+    text-shadow: 2px 2px 2px #d4d4d4;
+    
+  }
+  >.dec-2{
+    height: 204px;
+    font-family: $fontDana;
+    color: $fontColor;
+    position: relative;
+    top: 200px;
+    right: 60px;
+    font-size: larger;
+  }
+  >span{
+    width: 860px;
+    height: 70px;
+    position: relative;
+  top: 370px;
+right: 80px;
+    font-family: $fontDana;
+    color: $fontColor;
+    font-size: 20px;
+  }
+}
+.buy-3:hover {
+  font-family: $fontDana;
+  color: $fontColor;
 }
